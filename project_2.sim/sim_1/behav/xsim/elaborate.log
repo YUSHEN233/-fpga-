@@ -1,0 +1,81 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 3f89d96183584b8f9bcae113639fe3f2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_game_behav xil_defaultlib.top_game xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port rst_n [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v:205]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ena [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v:303]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port ena [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v:310]
+WARNING: [VRFC 10-278] actual bit length 15 differs from formal bit length 13 for port addra [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v:311]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Rst [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/top_game.v:76]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Video_Mode [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/top_game.v:77]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port aRst [C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/top_game.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=6.5,C...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.div
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,RDA...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,INIT_00=256'b...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_generi...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_top
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_4_1...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_4_1
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(DOA_REG=1,RDA...
+Compiling module unisims_ver.RAMB18E1(DOA_REG=1,INIT_00=256'b...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_generi...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_top
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_v8_4_1...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_v8_4_1
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module xil_defaultlib.vga_out
+Compiling module xil_defaultlib.Driver_HDMI_default
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=6.0,CLK...
+Compiling module unisims_ver.FDPE_default
+Compiling module xil_defaultlib.rgb2dvi_0_SyncAsync_6
+Compiling module xil_defaultlib.rgb2dvi_0_ResetBridge_5
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.rgb2dvi_0_SyncAsync__parameteriz...
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module xil_defaultlib.rgb2dvi_0_ClockGen
+Compiling module unisims_ver.OBUFDS
+Compiling secureip modules ...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling secureip modules ...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.rgb2dvi_0_OutputSERDES
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.FDSE_default
+Compiling module xil_defaultlib.rgb2dvi_0_TMDS_Encoder
+Compiling module xil_defaultlib.rgb2dvi_0_OutputSERDES_0
+Compiling module xil_defaultlib.rgb2dvi_0_TMDS_Encoder_1
+Compiling module xil_defaultlib.rgb2dvi_0_OutputSERDES_2
+Compiling module xil_defaultlib.rgb2dvi_0_TMDS_Encoder_3
+Compiling module xil_defaultlib.rgb2dvi_0_OutputSERDES_4
+Compiling module xil_defaultlib.rgb2dvi_0_SyncAsync
+Compiling module xil_defaultlib.rgb2dvi_0_ResetBridge
+Compiling module xil_defaultlib.rgb2dvi_0_rgb2dvi
+Compiling module xil_defaultlib.rgb2dvi_0
+Compiling module xil_defaultlib.clk_div_default
+Compiling module xil_defaultlib.top_game
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_game_behav

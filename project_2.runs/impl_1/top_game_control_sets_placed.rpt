@@ -1,0 +1,87 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Jul 31 21:25:53 2020
+| Host         : LAPTOP-9O9BB15E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_game_control_sets_placed.rpt
+| Design       : top_game
+| Device       : xc7s15
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    20 |
+| Unused register locations in slices containing registers |    40 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |            2 |
+|      8 |            3 |
+|     12 |            1 |
+|    16+ |           14 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             402 |           78 |
+| No           | No                    | Yes                    |              12 |            2 |
+| No           | Yes                   | No                     |             378 |           57 |
+| Yes          | No                    | No                     |             144 |           27 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+----------------------------------+-------------------------------------------------------------------------------+------------------+----------------+
+|           Clock Signal          |           Enable Signal          |                                Set/Reset Signal                               | Slice Load Count | Bel Load Count |
++---------------------------------+----------------------------------+-------------------------------------------------------------------------------+------------------+----------------+
+|  clk/inst/clk_out1              |                                  | rgb2dvi/U0/ClockGenInternal.ClockGenX/in0                                     |                1 |              4 |
+|  clk/inst/clk_out1              | vga_out/timer[19]_i_1_n_0        |                                                                               |                2 |              4 |
+|  vga_out/div2/accelerate_reg[0] |                                  |                                                                               |                2 |              8 |
+|  clk/inst/clk_out1              |                                  | vga_out/Piccar_UB[5]_i_1_n_0                                                  |                3 |              8 |
+|  clk/inst/clk_out1              |                                  | rgb2dvi/U0/ClockGenInternal.ClockGenX/LockLostReset/SyncAsyncx/oSyncStages[1] |                1 |              8 |
+|  rand_num_reg[7]_i_1_n_0        | vga_out/Picufo_UB0               |                                                                               |                1 |             12 |
+|  clk/inst/clk_out1              |                                  | rgb2dvi/U0/DataEncoders[0].DataEncoder/pDataOutRaw[9]_i_1__1_n_0              |                3 |             20 |
+|  clk/inst/clk_out1              | Driver_HDMI0/Set_Y0_carry__0_n_2 |                                                                               |                8 |             24 |
+|  clk/inst/clk_out1              | Driver_HDMI0/VSync_Cnt0          |                                                                               |                3 |             24 |
+|  clk/inst/clk_out1              | Driver_HDMI0/CO[0]               |                                                                               |                4 |             24 |
+|  clk/inst/clk_out1              | vga_out/Address1                 |                                                                               |                5 |             28 |
+|  clk/inst/clk_out1              | vga_out/Piccar_area              |                                                                               |                4 |             28 |
+|  clk/inst/clk_out1              |                                  | vga_out/timer[19]_i_1_n_0                                                     |                5 |             38 |
+|  rand_num_reg[7]_i_1_n_0        |                                  | vga_out/div2/clk_out                                                          |                8 |             60 |
+|  clk/inst/clk_out1              |                                  | vga_out/div/clk_out                                                           |                8 |             60 |
+|  clk/inst/clk_out1              |                                  | vga_out/count2                                                                |                8 |             64 |
+|  clk/inst/clk_out1              |                                  | vga_out/new_key1                                                              |                8 |             64 |
+|  clk/inst/clk_out1              |                                  | rgb2dvi/U0/DataEncoders[0].DataEncoder/SR[0]                                  |               14 |             64 |
+|  rand_num_reg[7]_i_1_n_0        |                                  |                                                                               |               14 |             72 |
+|  clk/inst/clk_out1              |                                  |                                                                               |               63 |            324 |
++---------------------------------+----------------------------------+-------------------------------------------------------------------------------+------------------+----------------+
+
+

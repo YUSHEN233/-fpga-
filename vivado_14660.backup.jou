@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jul 31 20:52:40 2020
+# Process ID: 14660
+# Current directory: C:/Users/AREA184/Desktop/gameplane
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9620 C:\Users\AREA184\Desktop\gameplane\project_2.xpr
+# Log file: C:/Users/AREA184/Desktop/gameplane/vivado.log
+# Journal file: C:/Users/AREA184/Desktop/gameplane\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AREA184/Desktop/gameplane/project_2.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_0 C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+file delete -force C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_0
+export_ip_user_files -of_objects  [get_files C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -reset -force -quiet
+remove_files  -fileset blk_mem_gen_1 C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci
+file delete -force C:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/blk_mem_gen_1
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name plane_rom -dir c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {plane_rom} CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {8} CONFIG.Write_Depth_A {10000} CONFIG.Read_Width_A {8} CONFIG.Write_Width_B {8} CONFIG.Read_Width_B {8} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/AREA184/Desktop/gameplane/plane3_R_Rom.coe} CONFIG.Port_A_Write_Rate {0}] [get_ips plane_rom]
+generate_target {instantiation_template} [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/plane_rom/plane_rom.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/plane_rom/plane_rom.xci]
+catch { config_ip_cache -export [get_ips -all plane_rom] }
+export_ip_user_files -of_objects [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/plane_rom/plane_rom.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/plane_rom/plane_rom.xci]
+launch_runs -jobs 2 plane_rom_synth_1
+export_simulation -of_objects [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/plane_rom/plane_rom.xci] -directory C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files -ipstatic_source_dir C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/modelsim} {questa=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/questa} {riviera=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/riviera} {activehdl=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name ufo_rom -dir c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {ufo_rom} CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {8} CONFIG.Write_Depth_A {10000} CONFIG.Read_Width_A {8} CONFIG.Write_Width_B {8} CONFIG.Read_Width_B {8} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/AREA184/Desktop/gameplane/ufo3_R_Rom.coe} CONFIG.Port_A_Write_Rate {0}] [get_ips ufo_rom]
+generate_target {instantiation_template} [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/ufo_rom/ufo_rom.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/ufo_rom/ufo_rom.xci]
+catch { config_ip_cache -export [get_ips -all ufo_rom] }
+export_ip_user_files -of_objects [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/ufo_rom/ufo_rom.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/ufo_rom/ufo_rom.xci]
+launch_runs -jobs 2 ufo_rom_synth_1
+export_simulation -of_objects [get_files c:/Users/AREA184/Desktop/gameplane/project_2.srcs/sources_1/ip/ufo_rom/ufo_rom.xci] -directory C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files -ipstatic_source_dir C:/Users/AREA184/Desktop/gameplane/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/modelsim} {questa=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/questa} {riviera=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/riviera} {activehdl=C:/Users/AREA184/Desktop/gameplane/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

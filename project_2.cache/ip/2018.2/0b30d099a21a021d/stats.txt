@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Wed Jul 29 15:17:59 UTC 2020
+VLNV: xilinx.com:ip:clk_wiz:6.0
+SynthRuntime: 92

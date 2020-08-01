@@ -1,0 +1,14 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/AREA184/Desktop/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v,1596122262,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,,blk_mem_gen_0;blk_mem_gen_0_blk_mem_gen_generic_cstr;blk_mem_gen_0_blk_mem_gen_prim_width;blk_mem_gen_0_blk_mem_gen_prim_wrapper_init;blk_mem_gen_0_blk_mem_gen_top;blk_mem_gen_0_blk_mem_gen_v8_4_1;blk_mem_gen_0_blk_mem_gen_v8_4_1_synth,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_sim_netlist.v,1596122262,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v,,blk_mem_gen_1;blk_mem_gen_1_blk_mem_gen_generic_cstr;blk_mem_gen_1_blk_mem_gen_prim_width;blk_mem_gen_1_blk_mem_gen_prim_wrapper_init;blk_mem_gen_1_blk_mem_gen_top;blk_mem_gen_1_blk_mem_gen_v8_4_1;blk_mem_gen_1_blk_mem_gen_v8_4_1_synth,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1596035879,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/Driver_HDMI.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/rgb2dvi_0/rgb2dvi_0_sim_netlist.v,1596035889,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1_sim_netlist.v,,rgb2dvi_0;rgb2dvi_0_ClockGen;rgb2dvi_0_OutputSERDES;rgb2dvi_0_OutputSERDES_0;rgb2dvi_0_OutputSERDES_2;rgb2dvi_0_OutputSERDES_4;rgb2dvi_0_ResetBridge;rgb2dvi_0_ResetBridge_5;rgb2dvi_0_SyncAsync;rgb2dvi_0_SyncAsync_6;rgb2dvi_0_SyncAsync__parameterized1;rgb2dvi_0_TMDS_Encoder;rgb2dvi_0_TMDS_Encoder_1;rgb2dvi_0_TMDS_Encoder_3;rgb2dvi_0_rgb2dvi,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/Driver_HDMI.v,1595918127,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/clk_div.v,,Driver_HDMI,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/clk_div.v,1595918447,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/div.v,,clk_div,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/div.v,1596124926,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v,,div,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/top_game.v,1596010618,verilog,,,,top_game,,,,,,,,
+C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/vga_out.v,1596159035,verilog,,C:/Users/AREA184/Desktop/project_2/project_2.srcs/sources_1/new/top_game.v,,vga_out,,,,,,,,

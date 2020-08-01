@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jul 31 18:22:23 2020
+# Process ID: 17712
+# Current directory: C:/Users/AREA184/Desktop/game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23044 C:\Users\AREA184\Desktop\game\project_2.xpr
+# Log file: C:/Users/AREA184/Desktop/game/vivado.log
+# Journal file: C:/Users/AREA184/Desktop/game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AREA184/Desktop/game/project_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/AREA184/Desktop/project_2' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/AREA184/Desktop/RGB2DVI_IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/AREA184/Desktop/RGB2DVI_IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'rgb2dvi_0' is locked:
+* IP definition 'rgb2dvi (1.2)' for IP 'rgb2dvi_0' (customized with software release 2018.2) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 859.043 ; gain = 125.855
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 31 18:23:25 2020...
